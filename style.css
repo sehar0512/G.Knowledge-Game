@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Spinnaker", sans-serif;
+}
+.navbar {
+  margin: -20px;
+}
+.quizCont {
+  background-image: url("bg.jpg");
+  background-position: bottom center;
+  height: 100vh;
+}
+.textCont {
+  color: white;
+  text-align: center;
+  padding-top: 130px;
+  text-shadow: 2px 2px 7px #f10bd0;
+}
+.textCont h1 {
+  font-size: 3rem;
+}
+
+.gameCont {
+  color: black;
+  /* background-color: rgba(255,255,255,0.95); */
+  background-image: url("gameBg.jpg");
+  background-position: center;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin: 70px auto;
+  width: fit-content;
+  padding: 20px 50px;
+  box-shadow: 2px 2px 20px 2px #f80bcb;
+}
+.gameCont h2 {
+  padding: 10px;
+}
+.scoreCont {
+  color: black;
+  /* background-color: rgba(255,255,255,0.95); */
+  background-image: url("gameBg.jpg");
+  background-position: bottom center;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin: 70px auto;
+  width: fit-content;
+  padding: 20px 50px;
+  box-shadow: 2px 2px 20px 2px #f80bcb;
+}
+.scoreCont h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px #f10bd0;
+  padding: 10px 0px;
+  font-size: 40px;
+}
+.scoreCont h2 {
+  text-shadow: 2px 2px 5px #f10bd0;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  margin: 0px auto;
+  width: fit-content;
+  margin-bottom: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+#btn {
+  background-color: #7b63f3;
+  outline: none;
+  border: none;
+}
+#btn:focus {
+  box-shadow: none;
+}
+#ans1:checked,
+#ans2:checked,
+#ans3:checked {
+  background-color: #7b63f3;
+  border: none;
+  box-shadow: none;
+}
