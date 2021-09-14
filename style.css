@@ -24,8 +24,7 @@
 
 .gameCont {
   color: black;
-  /* background-color: rgba(255,255,255,0.95); */
-  background-image: url("gameBg.jpg");
+  background-image: url("quizBg.jpg");
   background-position: center;
   border-radius: 10px;
   margin-top: 70px;
