@@ -25,6 +25,7 @@
 .gameCont {
   color: black;
   background-image: url("quizBg.jpg");
+  background-size: cover;
   background-position: center;
   border-radius: 10px;
   margin-top: 70px;
@@ -38,7 +39,6 @@
 }
 .scoreCont {
   color: black;
-  /* background-color: rgba(255,255,255,0.95); */
   background-image: url("gameBg.jpg");
   background-position: bottom center;
   border-radius: 10px;
